@@ -88,7 +88,7 @@ En realidad segun la doc oficial el DIFF diferencia entre lo ultimo que esta en 
 Para ver la diferencia entre el ultimo commit y lo que esta en stage es
 $ git diff --stage
 
->Git reset y git reset hard
+Git reset y git reset hard
 sirve para situarse en lugares de tiempo
 $ git reset --hard "el id del commit que queremos volver"
 esto borra todos lso commmit anteriores.
