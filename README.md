@@ -1,18 +1,18 @@
 # apuntesGIT
 Apuntes de git
 
--- Arrancar con Git
+Arrancar con Git
 $ git config --global user.name "NOMBRE DE USUARIO"
 $ git config --global user.mail "EMAIL DE USUIARIO"
--- Esto crea un archivo dentro del usuario con esos datos.
+Esto crea un archivo dentro del usuario con esos datos.
 
 GIT INIT
 Inicializa Git en la caperta deseada (dentro de la carpeta en la que se este), se crea una carpeta oculta ".git" 
 $ git init
 
 
- GIT STATUS
- para ver el estado de la carpeta.
+GIT STATUS
+para ver el estado de la carpeta.
 $ git STATUS
 Te va a mostrar el estado de lo que esta en stage y lo que no, si falta realizar commit o si ya esta todo actualizado. Diferencia preparado de no preparado y lo ya se realizo commit
 $ git status -sb -> es un modo resumido del statis Primera columna lo que ya esta agregado, segunda columna lo que no esta agregado. 
